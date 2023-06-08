@@ -1,4 +1,4 @@
-let pizzaData = [
+const pizzaData = [
     {
         pizzaName: "Baconator",
         pizzaBase: "Thin & Crispy",

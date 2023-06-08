@@ -18,17 +18,11 @@
 
     <script src="../js/checkout.js"></script>
 </head>
-<body>
+<body onload="displayCheck()">
     <div class="checkLeft">
         <h1>Your Order</h1>
         <div id="checkoutOrder">
-            <div class="orderLine">
-                <p>Name of Pizza</p>
-                <p>Pizza Size</p>
-                <p>Pizza Base</p>
-                <p>Pizza Toppings</p>
-                <p>Pizza Price</p>
-            </div>
+            
         </div>
     </div>
     <div class="checkRight">
@@ -39,7 +33,7 @@
         <input type="text" class="form-control" placeholder="#0000" id="promo">
         <button class="btn btn-primary" type="button" onclick="">Add Discount</button>  
 
-        <button class="btn btn-primary" type="button" onclick="">Make Payment</button>  
+        <button class="btn btn-primary" type="button" onclick="resetReturn()">Make Payment</button>  
 
 
     </div>
